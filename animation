@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+   
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {background-color:  blue;}
+  to {background-color:green;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div></div>
+
+ 
+</body>
+</html>
